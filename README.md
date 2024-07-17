@@ -1,9 +1,13 @@
 Dependencies:
 - ros (noetic tested)
 - ttkbootstrap
-**eg**: `pip install ttkbootstrap`
+`pip install ttkbootstrap`
 - azure iot device
-**eg**: `pip install azure-iot-device`
+`pip install azure-iot-device`
+- azure.iot.hub
+`pip install azure-iot-hub`
+- serial
+`pip install pyserial`
 
 TO-DO
 - [x] 1. Make the button and label bigger (GUI) 
