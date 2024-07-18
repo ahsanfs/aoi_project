@@ -17,6 +17,7 @@ TO-DO
 - [ ] 5. Get the inspecting .. status from Taiwan side (robot movement + inspection)
 
 Mapping
+```
     '0': {'label': "Unfinished", 'color': SECONDARY},
     '1': {'label': "Robot Inspecting..", 'color': PRIMARY},
     '2': {'label': "Accepted (Robot)", 'color': SUCCESS}, #based on inspection result >80%
@@ -25,3 +26,4 @@ Mapping
     '5': {'label': "Human Inspecting..", 'color': PRIMARY},
     '6': {'label': "Inspected (Human)", 'color': SUCCESS}, #only inspecting, and inspected. Accepted or rejected can be decided manually by giving a mark
     '9': {'label': "Robot going to ..", 'color': DARK} # next ssd that will be inspected by robot
+```
