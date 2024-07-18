@@ -1,5 +1,5 @@
 Dependencies:
-- ros (noetic tested)
+- ros (tested in noetic)
 - ttkbootstrap
 `pip install ttkbootstrap`
 - azure iot device
