@@ -1,5 +1,5 @@
 Dependencies:
-- ros (tested in noetic)
+- ROS (tested in noetic)
 - ttkbootstrap
 `pip install ttkbootstrap`
 - azure iot device
@@ -27,5 +27,5 @@ Mapping
 '6': {'label': "Inspected (Human)", 'color': SUCCESS}, #only inspecting, and inspected. Accepted or rejected can be decided manually by giving a mark
 '9': {'label': "Robot going to ..", 'color': DARK} # next ssd that will be inspected by robot
 ```
-How publish data
+To publish data using ROS
 `rostopic pub --once /sub/aoi/spain/status std_msgs/String "data: '100000000000'"`
