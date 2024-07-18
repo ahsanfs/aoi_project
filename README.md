@@ -15,6 +15,7 @@ TO-DO
 - [ ] 3. Define list of experiments we can conduct
 - [ ] 4. Evaluation matrix
 - [ ] 5. Get the inspecting .. status from Taiwan side (robot movement + inspection)
+- [ ] 6. Sync UI (Taiwan side)
 
 Mapping
 ```
