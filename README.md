@@ -28,7 +28,9 @@ Mapping
 '9': {'label': "Robot going to ..", 'color': DARK} # next ssd that will be inspected by robot
 ```
 To publish data using ROS
-`rostopic pub --once /sub/aoi/spain/status std_msgs/String "data: '100000000000'"`
+```
+rostopic pub --once /sub/aoi/spain/status std_msgs/String "data: '100000000000'"
+```
 
 
 
