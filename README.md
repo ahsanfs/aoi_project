@@ -29,3 +29,7 @@ Mapping
 ```
 To publish data using ROS
 `rostopic pub --once /sub/aoi/spain/status std_msgs/String "data: '100000000000'"`
+
+
+
+
